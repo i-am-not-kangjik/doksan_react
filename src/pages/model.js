@@ -38,6 +38,7 @@ function PhoneSelectionForm() {
         console.log("----------------------")
 
         // Send the POST request
+        // fetch('http://127.0.0.1:8000/predict_price', {
         fetch('http://3.37.220.88:80/predict_price', {
             method: 'POST',
             headers: {
@@ -830,7 +831,7 @@ function PhoneSelectionForm() {
                         }
                     </p>
                     <div className='' style={{ marginTop: '10px' }}>
-                        <img src='https://github.com/i-am-not-kangjik/no_Yongsan_yes_Doksan/blob/main/FE/shop/src/img/qrcode_localhost.png?raw=true' style={{ width: '300px', height: '300px', marginTop: '20px' }}></img>
+                        <img src='https://github.com/i-am-not-kangjik/no_Yongsan_yes_Doksan/blob/main/FE/shop/src/img/qrcode.png?raw=true' style={{ width: '300px', height: '300px', marginTop: '20px' }}></img>
                     </div>
                 </div>
             )}
